@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(./root.css);
+
+/* ==== FONT FAMILY ====== */
+@font-face {
+    font-family: norwester;
+    src: url(/assets/fonts/norwester.otf);
+}
+.font-norwester{
+    font-family: "norwester", sans-serif;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+
+/* ======= COMMON ====== */
+.heading{
+    font-family: "norwester", sans-serif;
+    font-size: var(--fs-xl);
+    color: var(--color-sea-green);
+    line-height: 119%;
+    font-weight: normal;
+}
+.para{
+    font-family: "Inter", sans-serif;
+    font-size: var(--fs-sm);
+    color: var(--color-seagreen);
+    line-height: 24.2px;
+}
+.common-blue-border{
+    border: 4px solid var(--color-seagreen);
+}
+.common-blue-shadow{
+ box-shadow: 0px 22px 0px 0px var(--color-seagreen);
+}
+
+/* ======= LINE HEIGHT ======= */
+.lh-178{
+    line-height: 178%;
+}
+.lh-100{
+    line-height: 100%;
+}
+.lh-121{
+    line-height: 121%;
+}
+.lh-169{
+    line-height: 169%;
+}
+
+/* ====== LAYER ====== */
+.mission-layer{
+     position: absolute;
+    top: 19%;
+    right: 0;
+    width: 897px;
+    z-index: -1;
+       height: 100%;
+    max-height: 619px;
+}
+.header-right-layer{
+    position: absolute;
+    top: -16%;
+    right: -10%;
+    z-index: -1;
+}
+.connected-layer{
+    position: absolute;
+    top: 26%;
+    right: -14%;
+    z-index: -1;
+    height: 100%;
+    max-height: 619px;
+}
+.journey-layer{
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+/* ======= VECTOR ====== */
+.about-vector-3{
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+.about-vector-1{
+    position: absolute;
+    top: 18%;
+    right: 3%;
+}
+.about-vector-2{
+    position: absolute;
+    bottom: 34%;
+    right: 4%;
+}
+.mission-hand-vector{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+.stay-right-hand{
+    position: absolute;
+    top: 6%;
+    right: 0;
+    width: 100px;
+    z-index: -1;
+}
+.stay-left-hand{
+     position: absolute;
+    bottom: 0%;
+    left: 0;
+    z-index: 2;
+}
+
+.mission-small-vector{
+    position: absolute;
+    top: 38%;
+    right: 55%;
+}
+.header-jug{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    width: 375px;
+}
+.header-lamp{
+    position: absolute;
+    top: -4%;
+    right: -2%;
+    z-index: -1;
+}
+.header-star{
+    position: absolute;
+    top: 3%;
+    right: 10%;
+}
+.header-logo{
+    width: 100px;
+}
+.header-cat{
+    position: absolute;
+    bottom: -10%;
+    right: 20%;
+}
+.stay-man{
+    width: 300px;
+    height: 280px;
+}
+.about-hand{
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+.about-man{
+    max-width: 300px;
+    width: 100%;
+}
+.stay-vector{
+    position: absolute;
+    top: 40%;
+    right: 6%;
+}
+
+.social-icons-box{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--color-orange);
+}
+
+.bg-sky-blue-cloud{
+    background-image: url("../images/webp/skyblue-cloud.webp");
+    width: 280px;
+    height: 180px;
+    background-size: 100% 100%;
+}
+.mt-12{
+    margin-top: 12px;
+}
+
+.h-1{
+    height: 1px;
+}
+.text-opacity-80{
+    opacity: 80%;
+}
+.stay-input{
+        width: 100%;
+    min-width: 300px;
+    border: 3px solid var(--color-seagreen);
+    border-radius: 72px;
+    padding: 12px 29px;
+    background: transparent;
+}
+.max-w-1920{
+    max-width: 1920px;
+}
+.radius-13{
+    border-radius: 13px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.max-w-208{
+    max-width: 208px;
+}
+.benefit-card{
+    padding: 24px;
+    border-radius: 13px;
+    width: 100%;
+}
+.pointer-none{
+    pointer-events: none;
+}
+.submit-btn{
+    padding: 20px 114px;
+    background: var(--color-orange);
+    border-radius: 72px;
+    border: 3px solid transparent;
+    box-shadow: 0px 4px 25.6px 0px #F87B54C7;
+    transition: all 300ms linear;
+}
+.submit-btn:hover{
+    border: 3px solid black;
+}
+
+/* ======= MEDIA QUIERY ====== */
+@media (min-width: 576px) {
+.stay-man{
+    width: 400px;
+    height: 333px;
+}
+.bg-sky-blue-cloud{
+    background-image: url("../images/webp/skyblue-cloud.webp");
+    width: 339px;
+    height: 243px;
+    background-size: cover;
+}
+.header-lamp{
+    position: absolute;
+    top: -4%;
+    right: 4%;
+    z-index: -1;
+}
+.stay-input{
+        width: 471px;
+        height: 70px;
+}
+.pb-180{
+    padding-bottom: 180px !important;
+}
+
+.stay-left-hand{
+     position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 120px;
+    z-index: 2;
+}
+.pb-sm-100{
+    padding-bottom: 100px;
+}
+.submit-btn{
+    padding: 28px 162px;
+}
+}
+@media (min-width: 768px) {
+    .pb-md-180{
+    padding-bottom: 180px !important;
+}
+
+.max-w-660{
+    max-width: 660px;
+}
+.pt-md-66{
+    padding-top: 66px;
+}
+.about-man{
+    max-width: 363px;
+}
+}
+@media (min-width:992px) {
+    .max-w-590{
+    max-width: 590px;
+}
+.benefit-card{
+    max-width: 530px;
+     padding: 24px 57px 76px 57px;
+}
+.max-w-590{
+    max-width: 590px;
+}
+.header-star{
+    position: absolute;
+    top: 3%;
+    right: 38%;
+}
+.header-logo{
+    width: 155px;
+}
+.max-w-xl-417{
+    max-width: 417px;
+}
+}
+@media (min-width: 1200px) {
+    .max-w-xl-596px{
+    max-width: 596px;
+}
+.max-w-xl-545{
+    max-width: 545px;
+}
+.max-w-xl-640{
+    max-width: 640px;
+}
+.header-girl{
+    position: absolute;
+    right: 0;
+        height: 630px;
+        max-width: 560px;
+        width: 100%;
+        top: 35%;
+}
+    .stay-man{
+    width: 500px;
+    height: 443px;
+}
+.translate-80{
+    transform: translateX(80px);
+}
+.about-man{
+    max-width: 413px;
+}
+.pb-xl-223{
+    padding-bottom: 223px !important;
+}
+.stay-input{
+        width: 471px;
+        height: 90px;
+}
+.submit-btn{
+    padding: 33px 201px;
+}
+}
+@media (min-width:1300px) {
+    .header-girl{
+    position: absolute;
+    right: 0;
+        height: 630px;
+        max-width: 700px;
+        width: 100%;
+        top: 35%;
+}
+
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .container {
+    max-width: 1180px !important;
+  }
+}
+@media (max-width:600px) {
+    .w_100{
+        width: 100%;
+    }
+}
