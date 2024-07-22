@@ -161,14 +161,12 @@
     top: 40%;
     right: 6%;
 }
-
 .social-icons-box{
     width: 38px;
     height: 38px;
     border-radius: 50%;
     background: var(--color-orange);
 }
-
 .bg-sky-blue-cloud{
     background-image: url("../images/webp/skyblue-cloud.webp");
     width: 280px;
@@ -178,7 +176,6 @@
 .mt-12{
     margin-top: 12px;
 }
-
 .h-1{
     height: 1px;
 }
